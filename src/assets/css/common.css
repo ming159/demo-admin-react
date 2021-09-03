@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: #2f537d; */
+    background: #ffffff;
+}
+html,body,#root,#root>div,.react_app{
+    height: 100%;
+    width: 100%;
+}
+.react_app .el-table{
+    height: 100%;
+    max-height: initial !important;
+}
+.main_table .el-table__body-wrapper{
+    height: 80%!important;
+    max-height: initial !important;
+    overflow: hidden;
+}
+
+.home_v {
+    width: 100%;
+    height: 100%;
+}
+
+.home_container {
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+}
+
+.home_menu {
+    width: 260px;
+    height: 100%;
+    background-color: #eef1f6;
+}
+
+.home_main {
+    width: calc(100% - 260px);
+    height: 100%;
+}

@@ -1,0 +1,36 @@
+.header_box{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: #102c6e;
+    color: #ffffff;
+}
+.react_app .main_table{
+    height: calc(100% - 60px);
+}
+.header_menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_setting {
+    position: absolute;
+    right: 20px;
+    top: 36%;
+    cursor: pointer;
+    color: #ffffff;
+}
+.header_setting .el-dropdown-link{
+    color: #ffffff;
+}
+.header_item {
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 1px 2px 10px 5px #0a91c1;
+    margin: 15px;
+}
+
+
